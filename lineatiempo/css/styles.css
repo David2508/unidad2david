@@ -1,0 +1,170 @@
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px; /* 1 rem = 10px*/
+    font-family: 'Krub', sans-serif;
+    /* Para hacer degradados  */
+    background-image: linear-gradient(to top,#b6c4bc 0%, #ffffff 100%);
+    text-align: center;
+    } 
+h1{
+    color: #ffffff;
+    font-size: 7rem;
+   text-align: center;
+}
+h2{
+    font-size: 3rem;
+color: #c21111;
+text-align: center;
+}
+h3{
+    color: #3e56a5;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-weight: 400;
+}
+#inicio{
+    background-image: url(../img/fondotitulo.jpg);
+    background-repeat: no-repeat;/*no repite imagen*/
+    background-size: cover; /*imagen se adapta al tamaño del navegador*/
+    height: 400px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+#cuarentas{
+    background-image: url(../img/cuarentas.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 350px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+#setentas{
+    background-image: url(../img/setentas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 350px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+#noventas{
+    background-image: url(../img/noventas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 350px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+#dosmil{
+    background-image: url(../img/dosmil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 350px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+#contactos{
+    background-image: url(../img/contacto.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 350px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.contenido-inicio{
+    position: absolute;
+    /* background-color: rgba(0, 0, 0,.7); Anterior */
+    background-color: rgb(0 0 0 /70%);
+    width: 100%;
+    height: 100%;
+    /** PARA CENTRAR CUALQUIER COSA SE USA EL SIGUIENTE CODIGO*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-menu{
+    max-width: 20rem;
+    margin: 0 auto;
+}
+.contenedor-contactos{
+    width: 20rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.navegacion-principal a{
+    display: block;
+    text-align: center;
+    color: #920909;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+/* Cuando el mouse pase por los elementos */
+.navegacion-principal a:hover{ 
+    background-color: #0096a7a8;
+    color: #ffffff;
+}
+.centrar{
+    text-align: center;
+}
+.navegacion-secundaria {
+    background-color: #b6c4bcbd;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+.navegacion-secundaria a{
+    text-decoration: none;
+    color: #920909;
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+.navegacion-secundaria a:hover{ 
+    background-color: #ffd413;
+    color: #000000;
+}
+.derecha{
+    position: static;
+}
+@media (min-width: 670px ) {
+    .derecha{
+        position: relative;
+    left: 67rem;
+    }
+}
+.imag{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.contenedor{
+    margin-left: 4rem;
+    max-width: 60rem; 
+    display: flex;
+    padding: 1rem;
+}
+.sombra{
+    /* https://www.cssmatic.com/box-shadow */
+background-color: #ffffff;
+-webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,122,0.54);
+ -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,122,0.54);
+ box-shadow: 0px 5px 15px 0px rgba(112,112,122,0.54);
+ padding: 2rem;
+ border-radius: 5rem;
+}
+.centrarfull{
+    margin-left: 30rem;
+}
+footer{
+    background-color: #0096a7a8;
+}
+
